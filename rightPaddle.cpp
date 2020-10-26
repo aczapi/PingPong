@@ -5,8 +5,8 @@ RightPaddle::RightPaddle() {
 }
 
 void RightPaddle::update() {
-    this->velocity_.y = (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S) -
-                         sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) *
+    this->velocity_.y = (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down) -
+                         sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up)) *
                         paddleSpeed;
 
     Entity::update();

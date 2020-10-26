@@ -3,25 +3,16 @@
 #include <thread>
 #include "headers.hpp"
 
-Ball::Ball(std::shared_ptr<Paddle> player1, std::shared_ptr<Paddle> player2, std::shared_ptr<Score> scorePlayer1, std::shared_ptr<Score> scorePlayer2)
-    : player1_(player1), player2_(player2_), scorePlayer1_(scorePlayer1), scorePlayer2_(scorePlayer2) {
+Ball::Ball(std::shared_ptr<Paddle> player1, std::shared_ptr<Paddle> player2, std::shared_ptr<Score> scorePlayer1, std::shared_ptr<Score> scorePlayer2) {
+    this->player1_ = player1;
+    this->player2_ = player2;
+    this->scorePlayer1_ = scorePlayer1;
+    this->scorePlayer2_ = scorePlayer2;
+
     // winner_ = 3;
     //this->velocity_.y = 1.0f;
     this->load("../assets/graphics/ball2.png");
-
-    // ballTexture_.loadFromFile("../assets/graphics/ball2.png");
-    // ball_.setPosition(windowWidth / 2, windowHeight / 2);
-    // ball_.setRadius(ballRadius);
-    // ball_.setOrigin(10, 10);
-    // ball_.setTexture(&ballTexture_);
-    // ballCollision_.loadFromFile("../assets/sounds/bounce.wav");
-    // sound_.setBuffer(ballCollision_);
 }
-
-// void Ball::draw(sf::RenderTarget& target, sf::RenderStates states) const {
-//     states.transform *= getTransform();
-//     target.draw(ball_, states);
-// }
 
 void Ball::addVelocity(std::shared_ptr<Paddle> paddle) {
     if (this->velocity_.y > 0) {
@@ -61,7 +52,7 @@ void Ball::update(sf::RenderWindow* window) {
     }
     if (this->getPosition().x > window->getSize().x - this->player2_->getGlobalBounds().width + 5) {
         // this->score_sound->play();
-        this->scorePlayer2_->incrementScore();
+        this->scorePlayer1_->incrementScore();
         this->reset(window);
     }
     Entity::update();

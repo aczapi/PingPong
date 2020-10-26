@@ -850,37 +850,27 @@ SFML/Config.hpp
 
 ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/background.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/background.hpp
 entity.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/entity.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/ball.cpp
-ball.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/ball.hpp
-chrono
--
-thread
--
-headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/ball.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/ball.hpp
 memory
 -
 entity.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/entity.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 leftPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/leftPaddle.hpp
 rightPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/rightPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/rightPaddle.hpp
 SFML/Audio.hpp
 -
 SFML/Graphics.hpp
 -
 score.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/score.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/score.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/entity.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 SFML/Graphics.hpp
 -
 memory
@@ -888,15 +878,15 @@ memory
 string
 -
 headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/game.cpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.cpp
 game.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/game.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
 mainMenu.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/mainMenu.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/game.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
 memory
 -
 vector
@@ -906,21 +896,21 @@ SFML/Audio.hpp
 SFML/Graphics.hpp
 -
 background.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/background.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/background.hpp
 ball.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/ball.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/ball.hpp
 entity.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/entity.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 gameStates.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/gameStates.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/gameStates.hpp
 headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 leftPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/leftPaddle.hpp
 rightPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/rightPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/rightPaddle.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/gameStates.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/gameStates.hpp
 SFML/Graphics.hpp
 -
 iostream
@@ -928,75 +918,43 @@ iostream
 memory
 -
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 cstddef
 -
 iostream
 -
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.cpp
-leftPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/leftPaddle.hpp
 SFML/Graphics.hpp
 -
 headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 paddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/paddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/main.cpp
-SFML/Audio.hpp
--
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 SFML/Graphics.hpp
--
-SFML/Window.hpp
--
-cmath
--
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/SFML/Graphics.hpp
 game.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/game.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
 gameStates.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/gameStates.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/gameStates.hpp
 headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
-leftPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/leftPaddle.hpp
-mainMenu.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/mainMenu.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/mainMenu.cpp
-mainMenu.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/mainMenu.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/mainMenu.hpp
-SFML/Graphics.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/SFML/Graphics.hpp
-game.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/game.hpp
-gameStates.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/gameStates.hpp
-headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/paddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
 entity.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/entity.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/rightPaddle.cpp
-rightPaddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/rightPaddle.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/rightPaddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/rightPaddle.hpp
 SFML/Graphics.hpp
 -
 headers.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/headers.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 paddle.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/paddle.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/score.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/score.hpp
 SFML/Graphics.hpp
 -
 

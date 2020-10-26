@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml
+CMAKE_SOURCE_DIR = /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/build
+CMAKE_BINARY_DIR = /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/PingPong.dir/clean
 CMakeFiles/PingPong.dir/all:
 	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/depend
 	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target PingPong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target PingPong"
 .PHONY : CMakeFiles/PingPong.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PingPong.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PingPong.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/build/CMakeFiles 0
 .PHONY : CMakeFiles/PingPong.dir/rule
 
 # Convenience name for target.

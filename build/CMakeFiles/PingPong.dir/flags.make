@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/SFML-2.5.1/include 
+CXX_INCLUDES = -isystem /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/SFML-2.5.1/include 
 

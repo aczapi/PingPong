@@ -14,22 +14,7 @@ public:
 
     void update(sf::RenderWindow* window);
 
-    void move();
-    int getX();
-    int getY();
-    int getLeft();
-    int getRight();
-    int getTop();
-    int getBottom();
-    float getVelocityX();
-    float getVelocityY();
-    void setVelocityX(float xSpeed);
-    void setVelocityY(float ySpeed);
-    void reverseVelocityX();
-    void reverseVelocityY();
-    const sf::CircleShape& getShape();
-    int getWinner() { return winner_; };
-    void reset(sf::RenderWindow* window);
+        void reset(sf::RenderWindow* window);
     void addVelocity(std::shared_ptr<Paddle> paddle);
 
 private:
