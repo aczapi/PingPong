@@ -11,10 +11,10 @@
 class Ball : public Entity {
 public:
     Ball(std::shared_ptr<Paddle> player1_, std::shared_ptr<Paddle> player2_, std::shared_ptr<Score> scorePlayer1_, std::shared_ptr<Score> scorePlayer2_);
-
+    ~Ball();
     void update(sf::RenderWindow* window);
 
-        void reset(sf::RenderWindow* window);
+    void reset(sf::RenderWindow* window);
     void addVelocity(std::shared_ptr<Paddle> paddle);
 
 private:
@@ -23,11 +23,10 @@ private:
     std::shared_ptr<Score> scorePlayer2_;
     std::shared_ptr<Paddle> player1_;
     std::shared_ptr<Paddle> player2_;
-    //sf::CircleShape ball_;
-    sf::Texture ballTexture_;
-    sf::SoundBuffer ballCollision_;
-    sf::Sound sound_;
 
-    //sf::Vector2f velocity_{5.0f, -5.0f};
-    //sf::Vector2f velocity_{ballSpeed, -ballSpeed};
+    sf::SoundBuffer* buffer_;
+    sf::Sound* sound_;
+
+    sf::SoundBuffer* scoreBuffer_;
+    sf::Sound* scoreSound_;
 };

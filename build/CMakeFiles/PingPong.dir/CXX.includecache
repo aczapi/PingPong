@@ -880,20 +880,12 @@ string
 headers.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.cpp
-game.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
-mainMenu.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
-memory
--
-vector
--
 SFML/Audio.hpp
 -
 SFML/Graphics.hpp
+-
+memory
 -
 background.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/background.hpp
@@ -925,12 +917,14 @@ iostream
 -
 
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/leftPaddle.hpp
-SFML/Graphics.hpp
--
 headers.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 paddle.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
+
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.cpp
+mainMenu.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 SFML/Graphics.hpp
@@ -947,8 +941,6 @@ entity.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
 
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/rightPaddle.hpp
-SFML/Graphics.hpp
--
 headers.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 paddle.hpp

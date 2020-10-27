@@ -1,10 +1,8 @@
 #pragma once
 
-#include <memory>
-#include <vector>
-
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
+#include <memory>
 #include "background.hpp"
 #include "ball.hpp"
 #include "entity.hpp"
@@ -29,13 +27,14 @@ private:
     std::shared_ptr<Score> scorePlayer1_;
     std::shared_ptr<Score> scorePlayer2_;
 
+    sf::Font* font_;
     sf::Font* scoreFont_;
     sf::Text* pausedText_;
     sf::Font* pausedFont_;
-    bool paused_, enterKey_;
-
     sf::Text* startDigits_;
 
     sf::Clock startTimer_;
     sf::Time startElapsed_;
+
+    bool paused_, enterKey_;
 };

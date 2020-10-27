@@ -66,10 +66,10 @@ void MainMenu::render(sf::RenderWindow* window) {
     this->quit_->setFillColor(sf::Color::White);
     switch (this->selected_) {
     case 0:
-        this->play_->setFillColor(sf::Color(246, 55, 202));
+        this->play_->setFillColor(sf::Color(128, 0, 0));
         break;
     case 1:
-        this->quit_->setFillColor(sf::Color(246, 55, 202));
+        this->quit_->setFillColor(sf::Color(128, 0, 0));
         break;
     default:
         break;

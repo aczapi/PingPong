@@ -14,7 +14,7 @@ void RightPaddle::update() {
     if (this->getPosition().y < 0) {
         this->move(0, paddleSpeed);
     }
-    if (this->getPosition().y + this->getGlobalBounds().height > 800) {
+    if (this->getPosition().y + this->getGlobalBounds().height > 720) {
         this->move(0, -paddleSpeed);
     }
 }

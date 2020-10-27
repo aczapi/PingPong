@@ -171,11 +171,15 @@ CMakeFiles/PingPong.dir/ball.cpp.o: ../SFML-2.5.1/include/SFML/Window/VideoMode.
 CMakeFiles/PingPong.dir/ball.cpp.o: ../SFML-2.5.1/include/SFML/Window/Window.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/PingPong.dir/ball.cpp.o: ../background.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../ball.cpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../ball.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../entity.hpp
+CMakeFiles/PingPong.dir/ball.cpp.o: ../game.hpp
+CMakeFiles/PingPong.dir/ball.cpp.o: ../gameStates.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../headers.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../leftPaddle.hpp
+CMakeFiles/PingPong.dir/ball.cpp.o: ../mainMenu.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../paddle.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../rightPaddle.hpp
 CMakeFiles/PingPong.dir/ball.cpp.o: ../score.hpp

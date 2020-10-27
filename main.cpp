@@ -1,11 +1,7 @@
 #include <SFML/Audio.hpp>
-#include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
-#include <cmath>
-#include "game.hpp"
 #include "gameStates.hpp"
 #include "headers.hpp"
-#include "leftPaddle.hpp"
 #include "mainMenu.hpp"
 
 bool quitGame = false;
@@ -14,9 +10,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "PingPong");
     GameState& game = GameState::instance();
     game.setWindow(&window);
-    //game.ShowMenu(&window);
     std::shared_ptr<MainMenu> mainMenu(new MainMenu());
-    // mainMenu = std::make_shared<MainMenu>();
     game.setState(mainMenu);
 
     sf::Clock timer;

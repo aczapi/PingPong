@@ -172,11 +172,15 @@ CMakeFiles/PingPong.dir/ball.cpp.o
  ../SFML-2.5.1/include/SFML/Window/Window.hpp
  ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/background.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/ball.cpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/ball.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/entity.hpp
+ /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
+ /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/gameStates.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/leftPaddle.hpp
+ /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/rightPaddle.hpp
  /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/score.hpp
