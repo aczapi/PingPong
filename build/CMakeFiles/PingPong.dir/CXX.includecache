@@ -880,6 +880,12 @@ string
 headers.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.cpp
+game.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
+mainMenu.hpp
+/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
+
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/game.hpp
 SFML/Audio.hpp
 -
@@ -921,10 +927,6 @@ headers.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/headers.hpp
 paddle.hpp
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/paddle.hpp
-
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.cpp
-mainMenu.hpp
-/home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 
 /home/aga/Desktop/C++/ProjektPP/PingPong/PingPong_sfml/PingPong/mainMenu.hpp
 SFML/Graphics.hpp

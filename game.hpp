@@ -32,6 +32,7 @@ private:
     sf::Text* pausedText_;
     sf::Font* pausedFont_;
     sf::Text* startDigits_;
+    sf::Text* control_;
 
     sf::Clock startTimer_;
     sf::Time startElapsed_;
